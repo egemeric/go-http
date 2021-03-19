@@ -2,7 +2,7 @@
 my first golang code
 
 ## Works on http://127.0.0.1:8008/  
-**you have to run executable files on prejects root folder**(move exec file from bulid, to upper dir) it runs arm & x86_64 you dont have to install any package.   
+**you have to run executable files on prejects root folder**(move exec file from bulid, to upper dir) it runs arm & x86_64 you dont have to install any package or Databases.   
 but because of the windows's filepath architecture it doesn't work now on windows :D   
 ### URLS: 
 
