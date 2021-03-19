@@ -1,0 +1,22 @@
+<html>
+
+<head>
+    <title>{{.Title}}</title>
+    <link rel="stylesheet" href="/static/sakura-dark.css">
+</head>
+
+<body>
+    {{if .Title}}
+    <h1>{{.Title}}</h1>
+    {{else}}
+    <h1>Go Http Server</h1>
+    {{end}}
+    <hr>
+    <p>[<a href="/edit/{{.Title}}">edit</a>]</p>
+    <p>{{printf "%s" .Body}}</p>
+    <hr>
+    <a href="/">Main Page</a>
+</body>
+
+
+</html>

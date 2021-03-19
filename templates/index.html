@@ -1,0 +1,28 @@
+<html>
+
+<head>
+    <title>page</title>
+    <link rel="stylesheet" href="/static/sakura-dark.css">
+</head>
+
+<body>
+  {{range .}}
+    {{if .Title}}
+      <hr>
+      <h2><a href="view/{{printf "%s" .Title}}">{{printf "%s" .Title}}</a></h2>
+      <li>{{printf "%s" .Body}}</li>
+    {{else}}
+      <h1>Go HTTP</h1>
+      <blockquote >
+        {{printf "%s" .Body}}
+      </blockquote>
+      
+    {{end}}
+      <br>  
+  {{end}}
+  <hr>
+  
+</body>
+
+
+</html>
