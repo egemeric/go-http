@@ -12,3 +12,4 @@ http://127.0.0.1:8008/view/<any_name>   -> you can view and change the page.
 ### CSS
 https://github.com/oxalorg/sakura it uses sakura css you can add or chage in static folder.
 
+![main-page](https://i.imgur.com/6nhY6d6.png)
