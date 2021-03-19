@@ -1,5 +1,5 @@
 # go-http
-my first golang code
+my first golang code :D  https://golang.org/doc/articles/wiki/ I've used here to learn and I added some features.
 
 ## Works on http://127.0.0.1:8008/  
 **you have to run executable files on prejects root folder**(move exec file from bulid, to upper dir) it runs arm & x86_64 you dont have to install any package or Databases.   
